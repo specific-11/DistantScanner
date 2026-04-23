@@ -11,7 +11,7 @@ local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/raxs0420/
 TDS:Loadout("Electroshocker", "Minigunner", "Crook Boss", "DJ Booth", "Commander")
 
 TDS:Mode("Fallen")
-TDS:GameInfo("Crossroads", {})
+TDS:GameInfo("Northern Lights", {})
 
 TDS:Ready()
 TDS:Place("Electroshocker", -13.713535, 60, 1.318157)
