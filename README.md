@@ -1,6 +1,6 @@
 _G.AutoPickups = true
 _G.AntiLag = false
-_G.ClaimRewards = false
+_G.ClaimRewards = true
 _G.AutoRejoin = true
 _G.AutoSmartSkip = false
 _G.SendWebhook = false
@@ -92,16 +92,21 @@ TDS:Upgrade(10)
 TDS:Upgrade(10)
 TDS:Upgrade(9)
 TDS:Upgrade(9)
+
 TDS:Place("Commander", -13.427103, 60, -7.149285)
 TDS:Upgrade(17)
 TDS:Upgrade(17)
+
 TDS:Place("Commander", -13.498035, 60, -10.205922)
 TDS:Upgrade(18)
 TDS:Upgrade(18)
+
 TDS:Place("Commander", -10.384098, 60, -10.157569)
 TDS:Upgrade(19)
 TDS:Upgrade(19)
-TDS:AutoChain(19, 18, 17)
+
+TDS:AutoChain(19,18,17)
+
 TDS:Upgrade(16)
 TDS:Upgrade(13)
 TDS:Upgrade(12)
