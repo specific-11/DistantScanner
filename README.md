@@ -6,6 +6,7 @@ _G.AutoSmartSkip = false
 _G.SendWebhook = false
 _G.Webhook = ""
 _G.AutoDJ = true
+_G.AutoChain = true
 
 local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/raxs0420/test/refs/heads/main/library%20new/new%20ui%20test%20test.lua"))()
 
