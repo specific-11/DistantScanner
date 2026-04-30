@@ -2,73 +2,73 @@ local TDX = loadstring(game:HttpGet("https://raw.githubusercontent.com/raxs0420/
 
 -- settings up
 TDX:Mode("Christmas25Part1") 
-TDX:VoteDifficulty("Nightmare") 
+TDX:VoteDifficulty("Christmas25Part1Nightmare") 
 TDX:Equip({"Sniper", "EDJ", "John"})
 TDX:TimeScale(1.5)
 TDX:AutoSkip(true)
 
 -- For Sniper Upgrades
 -- range total 2 to 5
-TDX:TowerUpgrade(Sniper, Range)
-TDX:TowerUpgrade(Sniper, Range)
+TDX:TowerUpgrade("Sniper", "Range")
+TDX:TowerUpgrade("Sniper", "Range")
 -- damage total 3 to 5
-TDX:TowerUpgrade(Sniper, Damage)
-TDX:TowerUpgrade(Sniper, Damage)
-TDX:TowerUpgrade(Sniper, Damage)
+TDX:TowerUpgrade("Sniper", "Damage")
+TDX:TowerUpgrade("Sniper", "Damage")
+TDX:TowerUpgrade("Sniper", "Damage")
 -- reload total 3 lvl in 5
-TDX:TowerUpgrade(Sniper, Reload Time)
-TDX:TowerUpgrade(Sniper, Reload Time)
-TDX:TowerUpgrade(Sniper, Reload Time)
+TDX:TowerUpgrade("Sniper", "Firerate")
+TDX:TowerUpgrade("Sniper", "Firerate")
+TDX:TowerUpgrade("Sniper", "Firerate")
 -- after start -------------------------
-TDX:TowerUpgrade(Sniper, Pierce) -- pierce total 1 to 3
-TDX:TowerUpgrade(Sniper, Reload Time) -- Reload 4 to 5
-TDX:TowerUpgrade(Sniper, Damage) -- damage total 4 to 5
-TDX:TowerUpgrade(Sniper, Range) -- range 3 to 5
-TDX:TowerUpgrade(Sniper, Reload Time) -- Reload 5 to 5 END
-TDX:TowerUpgrade(Sniper, Damage) -- damage total 5 to 5 END
+TDX:TowerUpgrade("Sniper", "Pierce") -- pierce total 1 to 3
+TDX:TowerUpgrade("Sniper", "Firerate") -- Reload 4 to 5
+TDX:TowerUpgrade("Sniper", "Damage") -- damage total 4 to 5
+TDX:TowerUpgrade("Sniper", "Range") -- range 3 to 5
+TDX:TowerUpgrade("Sniper", "Firerate") -- Reload 5 to 5 END
+TDX:TowerUpgrade("Sniper", "Damage") -- damage total 5 to 5 END
 
 -- pierce total 3 to 3 END
-TDX:TowerUpgrade(Sniper, Pierce)
-TDX:TowerUpgrade(Sniper, Pierce)
+TDX:TowerUpgrade("Sniper", "Pierce")
+TDX:TowerUpgrade("Sniper", "Pierce")
 
 -- range 5 to 5 END
-TDX:TowerUpgrade(Sniper, Range)
-TDX:TowerUpgrade(Sniper, Range)
+TDX:TowerUpgrade("Sniper", "Range")
+TDX:TowerUpgrade("Sniper", "Range")
 -- For EDJ Upgrades / John
-TDX:TowerUpgrade(EDJ, Range) -- 1 to 5 range
-TDX:TowerUpgrade(EDJ, Range Buff) -- 1 to 5 range buff
-TDX:TowerUpgrade(EDJ, Ability Cooldowns) -- 1 to 5 cd
-TDX:TowerUpgrade(EDJ, Ability Cooldowns) -- 2 to 5 cd
-TDX:TowerUpgrade(EDJ, Range Buff) -- 2 to 5 range buff
+TDX:TowerUpgrade("EDJ", "Range") -- 1 to 5 range
+TDX:TowerUpgrade("EDJ", "RangeBuff") -- 1 to 5 range buff
+TDX:TowerUpgrade("EDJ", "AbilityCooldowns") -- 1 to 5 cd
+TDX:TowerUpgrade("EDJ", "AbilityCooldowns") -- 2 to 5 cd
+TDX:TowerUpgrade("EDJ", "RangeBuff") -- 2 to 5 range buff
 
-TDX:TowerUpgrade(John, Ability Cooldowns) -- 1 to 5 cd
-TDX:TowerUpgrade(John, Range) -- 1 to 5 range
+TDX:TowerUpgrade("John", "AbilityCooldowns") -- 1 to 5 cd
+TDX:TowerUpgrade("John", "Range") -- 1 to 5 range
 
-TDX:TowerUpgrade(EDJ, Ability Cooldowns) -- 3 to 5 cd
-TDX:TowerUpgrade(EDJ, Range) -- 2 to 5 range
-TDX:TowerUpgrade(EDJ, Ability Cooldowns) -- 4 to 5 cd
-TDX:TowerUpgrade(EDJ, Range Buff) -- 3 to 5 range buff
-TDX:TowerUpgrade(EDJ, Range) -- 3 to 5 range
-TDX:TowerUpgrade(EDJ, Ability Cooldowns) -- 5 to 5 cd END
+TDX:TowerUpgrade("EDJ", "AbilityCooldowns") -- 3 to 5 cd
+TDX:TowerUpgrade("EDJ", "Range") -- 2 to 5 range
+TDX:TowerUpgrade("EDJ", "AbilityCooldowns") -- 4 to 5 cd
+TDX:TowerUpgrade("EDJ", "RangeBuff") -- 3 to 5 range buff
+TDX:TowerUpgrade("EDJ", "Range") -- 3 to 5 range
+TDX:TowerUpgrade("EDJ", "AbilityCooldowns") -- 5 to 5 cd END
 
-TDX:TowerUpgrade(John, Ability Cooldowns) -- 2 to 5 cd
-TDX:TowerUpgrade(EDJ, Range Buff) -- 4 to 5 range buff
-TDX:TowerUpgrade(EDJ, Range) -- 4 to 5 range
-TDX:TowerUpgrade(EDJ, Range Buff) -- 5 to 5 range buff END
-TDX:TowerUpgrade(John, Ability Cooldowns) -- 3 to 5 cd
-TDX:TowerUpgrade(EDJ, Range) -- 5 to 5 range END
-TDX:TowerUpgrade(EDJ, Health) -- 1 to 5 health
-TDX:TowerUpgrade(EDJ, Health) -- 2 to 5 health
-TDX:TowerUpgrade(John, Ability Cooldowns) -- 4 to 5 cd
-TDX:TowerUpgrade(John, Health) -- 1 to 5 HP
-TDX:TowerUpgrade(John, Health) -- 2 to 5 HP
-TDX:TowerUpgrade(John, Health) -- 3 to 5 HP
-TDX:TowerUpgrade(EDJ, Health) -- 3 to 5 health
-TDX:TowerUpgrade(EDJ, Health) -- 4 to 5 health
-TDX:TowerUpgrade(John, Ability Cooldowns) -- 5 to 5 cd END
-TDX:TowerUpgrade(EDJ, Health) -- 5 to 5 health END
-TDX:TowerUpgrade(John, Health) -- 4 to 5 HP
-TDX:TowerUpgrade(John, Health) -- 5 to 5 HP
+TDX:TowerUpgrade("John", "AbilityCooldowns") -- 2 to 5 cd
+TDX:TowerUpgrade("EDJ", "RangeBuff") -- 4 to 5 range buff
+TDX:TowerUpgrade("EDJ", "Range") -- 4 to 5 range
+TDX:TowerUpgrade("EDJ", "RangeBuff") -- 5 to 5 range buff END
+TDX:TowerUpgrade("John", "AbilityCooldowns") -- 3 to 5 cd
+TDX:TowerUpgrade("EDJ", "Range") -- 5 to 5 range END
+TDX:TowerUpgrade("EDJ", "Health") -- 1 to 5 health
+TDX:TowerUpgrade("EDJ", "Health") -- 2 to 5 health
+TDX:TowerUpgrade("John", "AbilityCooldowns") -- 4 to 5 cd
+TDX:TowerUpgrade("John", "Health") -- 1 to 5 HP
+TDX:TowerUpgrade("John", "Health") -- 2 to 5 HP
+TDX:TowerUpgrade("John", "Health") -- 3 to 5 HP
+TDX:TowerUpgrade("EDJ", "Health") -- 3 to 5 health
+TDX:TowerUpgrade("EDJ", "Health") -- 4 to 5 health
+TDX:TowerUpgrade("John", "AbilityCooldowns") -- 5 to 5 cd END
+TDX:TowerUpgrade("EDJ", "Health") -- 5 to 5 health END
+TDX:TowerUpgrade("John", "Health") -- 4 to 5 HP
+TDX:TowerUpgrade("John", "Health") -- 5 to 5 HP
 
 -- waves 1
 TDX:Place("Sniper", 0.472057, 17.351765, 97.022171, 0, 285, 1)
