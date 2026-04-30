@@ -1,7 +1,7 @@
 local TDX = loadstring(game:HttpGet("https://raw.githubusercontent.com/raxs0420/test/refs/heads/main/library%20new/tdx%20test"))()
 
 -- settings up
-TDX:Mode("Robot Invasion") 
+TDX:Mode("Robotinvasion") 
 TDX:VoteDifficulty("Nightmare") 
 TDX:Equip({"Sniper", "EDJ", "John"})
 TDX:TimeScale(1.5)
