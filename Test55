@@ -27,12 +27,13 @@ TDS:Upgrade(4)
 
 TDS:Upgrade(3)
 TDS:Upgrade(3)
-TDS:Upgrade(3)
 
 TDS:Place("Tesla", 2.2115421295166016, 3.59997820854187, 19.781972885131836)
 TDS:Upgrade(5)
 TDS:Upgrade(5)
 TDS:Upgrade(5)
+
+TDS:Upgrade(3)
 
 TDS:Place("Tesla", 0.6954200267791748, 3.5999765396118164, 23.538190841674805)
 TDS:Upgrade(6)
