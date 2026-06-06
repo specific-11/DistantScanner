@@ -16,6 +16,8 @@ TDS:Upgrade(1)
 
 TDS:Place("Crook Boss", 7.1767706871032715, 3.59997820854187, 17.684125900268555)
 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/avtryxz/autogutlin/refs/heads/main/autogutlin.lua"))()
+
 TDS:Place("Gatling Gun", 10.261219024658203, 0.999954104423523, 11.979811668395996)
 TDS:Upgrade(3)
 
