@@ -1,0 +1,64 @@
+_G.AutoSmartSkip = true
+_G.AntiLag = true
+_G.AutoDJ = true
+
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/raxs0420/test/refs/heads/main/library%20new/new%20ui%20test%20test.lua"))()
+
+TDS:Loadout("Gatling Gun", "Turret", "Tesla", "Pyromancer", "Crook Boss")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wrecked Battlefield", {})
+
+TDS:Ready()
+
+TDS:Place("Pyromancer", 14.875818252563477, 3.5999794006347656, 16.599552154541016)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+
+TDS:Place("Crook Boss", 7.1767706871032715, 3.59997820854187, 17.684125900268555)
+
+TDS:Place("Gatling Gun", 10.261219024658203, 0.999954104423523, 11.979811668395996)
+TDS:Upgrade(3)
+
+TDS:Place("Pyromancer", 1.2781345844268799, 0.9999389052391052, 33.74361801147461)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+TDS:Place("Tesla", 2.2115421295166016, 3.59997820854187, 19.781972885131836)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+TDS:Place("Tesla", 0.6954200267791748, 3.5999765396118164, 23.538190841674805)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+TDS:Place("Turret", -1.7768559455871582, 0.9999530911445618, 13.475238800048828)
+for i=1,5 do TDS:Upgrade(7) end
+
+TDS:Place("Turret", 2.035707712173462, 0.999954104423523, 12.02298355102539)
+for i=1,5 do TDS:Upgrade(8) end
+
+TDS:Place("Turret", 6.114777565002441, 0.9999545812606812, 11.32638168334961)
+for i=1,5 do TDS:Upgrade(9) end
+
+-- Здесь нужно понять чем заменить WaitForWave(11)
+
+TDS:Sell(5)
+TDS:Sell(6)
+
+TDS:Place("Tesla", 2.7724382877349854, 3.5999999046325684, -0.4796462059020996)
+TDS:Place("Tesla", 1.6961708068847656, 3.5999817848205566, -4.400758743286133)
+
+for i=1,4 do TDS:Upgrade(10) end
+for i=1,4 do TDS:Upgrade(11) end
