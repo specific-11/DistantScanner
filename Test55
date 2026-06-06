@@ -25,8 +25,6 @@ TDS:Place("Pyromancer", 1.2781345844268799, 0.9999389052391052, 33.7436180114746
 TDS:Upgrade(4)
 TDS:Upgrade(4)
 
-TDS:Upgrade(3)
-
 TDS:Place("Tesla", 2.2115421295166016, 3.59997820854187, 19.781972885131836)
 TDS:Upgrade(5)
 TDS:Upgrade(5)
@@ -38,6 +36,7 @@ TDS:Upgrade(6)
 TDS:Upgrade(6)
 TDS:Upgrade(6)
 
+TDS:Upgrade(3)
 TDS:Upgrade(3)
 TDS:Upgrade(3)
 
