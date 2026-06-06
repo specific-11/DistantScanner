@@ -1,5 +1,5 @@
 _G.AutoSmartSkip = true
-_G.AntiLag = true
+_G.AntiLag = false
 _G.AutoDJ = true
 
 local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/raxs0420/test/refs/heads/main/library%20new/new%20ui%20test%20test.lua"))()
