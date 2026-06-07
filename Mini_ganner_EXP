@@ -1,0 +1,44 @@
+_G.AntiLag = true
+
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/raxs0420/test/refs/heads/main/library%20new/new%20ui%20test%20test.lua"))()
+
+TDS:Loadout("Minigunner", "", "", "", "")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+
+TDS:AutoSkip(true)
+TDS:Ready()
+
+-- Wave 2
+TDS:Place("Minigunner", 1.432370662689209, 1.436934232711792, 27.87601661682129)
+
+-- Wave 3
+TDS:Upgrade(1)
+
+-- Wave 5
+TDS:Place("Minigunner", 4.546943187713623, 1.407247543334961, 27.872900009155273)
+
+-- Wave 6
+TDS:Upgrade(2)
+
+-- Wave 8
+TDS:Place("Minigunner", 5.792983055114746, 1.337424397468567, 22.332794189453125)
+
+-- Wave 9
+TDS:Upgrade(3)
+
+-- Wave 11
+TDS:Place("Minigunner", 2.372230052947998, 1.3786046504974365, 22.456092834472656)
+TDS:Upgrade(4)
+
+-- Wave 12
+TDS:Upgrade(3)
+
+-- Wave 13
+TDS:Upgrade(4)
+
+-- Wave 14
+TDS:Upgrade(2)
+
+-- Wave 15
+TDS:Upgrade(1)
