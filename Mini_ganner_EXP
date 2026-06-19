@@ -3,8 +3,18 @@ _G.AntiLag = true
 local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/raxs0420/test/refs/heads/main/library%20new/new%20ui%20test%20test.lua"))()
 
 TDS:Loadout("Minigunner", "", "", "", "")
-TDS:GameInfo("Wretched Front", {})
 TDS:Mode("Hardcore")
+TDS:GameInfo("Wretched Front", {})
+
+task.spawn(function()
+    while true do
+        Strategy()
+        local result = TDS:WaitForMatchStatus()
+        TDS:ClearSessionData()
+        TDS:RestartGame()
+        task.wait(1.5)
+    end
+end)
 
 TDS:AutoSkip(true)
 TDS:Ready()
@@ -42,3 +52,5 @@ TDS:Upgrade(2)
 
 -- Wave 15
 TDS:Upgrade(1)
+
+
